@@ -10,20 +10,3 @@ This repository implements an end-to-end semantic search and data preprocessing 
     Hybrid Keyword-Semantic Retrieval: Combines traditional SQL full-text search indexes with mathematical vector scoring for a robust hybrid search framework.
     
     Idempotent Data Validation: Built-in SQL constraints and upsert mechanisms to completely avoid embedding drift and dataset duplication.
-# Database Schema Definition
-
-├── .github/
-
-│   └── workflows/
-
-│       └── ai-test-pipeline.yml
-
-├── scripts/
-
-│   └── 01_schema.sql
-
-├── ai_pipeline.py
-
-├── requirements.txt
-
-└── README.md
